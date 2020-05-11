@@ -1,15 +1,8 @@
-"""
-Twitter data scraping using Selenium assignment
-
-Team 2 : Ishan Desai, Bhuvana Vellanki, Saroja Kondamudi
-
-"""
-
 
 from selenium import webdriver
 import time,codecs
 
-
+# Insert twitter profile in url
 url='https://twitter.com/SHAQ'
 
 #open the browser and visit the url
