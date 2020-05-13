@@ -88,7 +88,7 @@ for i in range(3):
         print()
 
         
-        #scroll down twice to load more tweets
+        #scroll down twice to load more tweets,you can also choose to scroll down multiple times
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
     time.sleep(2)
 
